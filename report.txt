@@ -1,0 +1,11 @@
+Title: SOC Simulation - Network Activity Analysis
+
+I simulated network activity by performing an Nmap scan on a public test server.
+
+During the scan, I captured network traffic using Wireshark and observed TCP packets related to the scanning activity.
+
+I also analyzed system logs using journalctl to observe system-level events.
+
+This project demonstrates how a SOC analyst can detect and analyze network activity using traffic and logs.
+
+This helped me understand how real-world monitoring and detection works in a SOC environment.

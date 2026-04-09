@@ -1,0 +1,3 @@
+nmap -sS scanme.nmap.org
+journalctl -n 30
+
