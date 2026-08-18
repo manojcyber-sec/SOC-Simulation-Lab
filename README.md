@@ -7,7 +7,7 @@ A hands-on Security Operations Center (SOC) lab focused on network reconnaissanc
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The goal of this lab was to simulate a basic SOC investigation workflow by generating network activity, capturing traffic, and analyzing system logs.
 
@@ -17,7 +17,7 @@ The lab demonstrates the following security workflow:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Kali Linux** — Security testing and analysis environment
 - **Nmap** — Network discovery and port scanning
@@ -26,7 +26,7 @@ The lab demonstrates the following security workflow:
 
 ---
 
-## 🔬 Lab Activities
+## Lab Activities
 
 ### 1. Network Reconnaissance
 
@@ -51,7 +51,7 @@ Used `journalctl` to investigate Linux system events and correlate system activi
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 During the investigation, the following activity was observed:
 
@@ -63,7 +63,7 @@ During the investigation, the following activity was observed:
 
 ---
 
-## 🏗️ SOC Investigation Workflow
+## SOC Investigation Workflow
 
 ```text
         Network Activity
