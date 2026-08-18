@@ -1,24 +1,87 @@
 # SOC Simulation Lab
 
-## Overview
-This project simulates a basic SOC (Security Operations Center) workflow by generating, capturing, and analyzing network activity.
+A hands-on Security Operations Center (SOC) lab focused on network reconnaissance, packet analysis, and Linux log investigation using Nmap, Wireshark, Kali Linux, and journalctl.
 
-## Tools Used
-- Nmap
-- Wireshark
-- Kali Linux
-- journalctl
+> **Project Type:** Cybersecurity / SOC / Blue Team  
+> **Status:** Hands-on Lab Project
 
-## Steps Performed
-1. Simulated network activity using Nmap
-2. Captured network traffic using Wireshark
-3. Analyzed logs using journalctl
-4. Observed TCP communication and system events
+---
 
-## Key Observations
-- Detected network scanning activity
-- Observed TCP packet communication
-- Analyzed system logs for activity tracking
+## 🎯 Objective
 
-## Learning Outcome
-This project helped me understand how SOC analysts monitor, detect, and analyze network activity using multiple data sources.
+The goal of this lab was to simulate a basic SOC investigation workflow by generating network activity, capturing traffic, and analyzing system logs.
+
+The lab demonstrates the following security workflow:
+
+**Generate Activity → Capture Traffic → Analyze Logs → Identify Suspicious Activity → Document Findings**
+
+---
+
+## 🛠️ Tools Used
+
+- **Kali Linux** — Security testing and analysis environment
+- **Nmap** — Network discovery and port scanning
+- **Wireshark** — Network packet capture and analysis
+- **journalctl** — Linux system log investigation
+
+---
+
+## 🔬 Lab Activities
+
+### 1. Network Reconnaissance
+
+Used Nmap to generate network scanning activity and identify accessible services.
+
+### 2. Packet Capture
+
+Used Wireshark to capture and inspect network traffic generated during the scan.
+
+### 3. Traffic Analysis
+
+Analyzed captured packets to understand:
+
+- Source and destination communication
+- TCP connections
+- Port activity
+- Network scanning behavior
+
+### 4. Log Investigation
+
+Used `journalctl` to investigate Linux system events and correlate system activity with the network activity generated during the lab.
+
+---
+
+## 🔍 Key Findings
+
+During the investigation, the following activity was observed:
+
+- Network scanning activity generated using Nmap
+- TCP communication between systems
+- Port-level network activity
+- Corresponding Linux system events
+- Multiple data sources useful for SOC investigation
+
+---
+
+## 🏗️ SOC Investigation Workflow
+
+```text
+        Network Activity
+               │
+               ▼
+          Nmap Scan
+               │
+               ▼
+       Wireshark Capture
+               │
+               ▼
+       Packet Analysis
+               │
+               ▼
+       journalctl Logs
+               │
+               ▼
+     Activity Correlation
+               │
+               ▼
+        SOC Findings
